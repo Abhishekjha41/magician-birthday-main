@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gift Card with Animation</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="imgslider" style="height: 100%; width: 100%">
+      <div class="container">
+        <div class="birthdayCard">
+          <div class="cardFront">
+            <div class="front-text">
+              <h3 class="happy">HAPPY</h3>
+              <h2 class="bday">BIRTHDAY</h2>
+              <h3 class="toyou">Meri Magician</h3>
+            </div>
+            <div class="wrap-deco">
+              <div class="decorations"></div>
+              <div class="decorationsTwo"></div>
+            </div>
+            <div class="wrap-decoTwo">
+              <div class="decorations"></div>
+              <div class="decorationsThree"></div>
+            </div>
+            <div class="plate">
+              <div class="cake"></div>
+              <div class="flame"></div>
+            </div>
+          </div>
+          <div class="cardInside">
+            <div class="img">
+              <img src="shikha3.jpg" alt="Brotherpic" class="bdyboy" />
+            </div>
+            <div class="inside-text">
+              <h3 class="happy">HAPPY</h3>
+              <h2 class="bday">BIRTHDAY</h2>
+              <h3 class="toyou">Meri Magician</h3>
+            </div>
+            <div class="wishes">
+              <p style="color: red">Meri Pyari Magician,</p>
+              <p style="color: red">
+                Many many happy returns of the day🥰🥰😘😘 Happy birthday meri
+                pyari si cute si magician😉💙💙💙😘I pray ki meri magician ko
+                sari khushiyaan mile.Hamesha khush rho meri pyari
+                pagal🥰💜💓🖤💚🤎🤎💟
+              </p>
+              <p class="name" style="color: red">~ Tumhara Chidu</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      // JavaScript to add and remove 'open' class for animation
+      document
+        .getElementById("giftCard")
+        .addEventListener("click", function () {
+          this.classList.toggle("open");
+        });
+    </script>
+  </body>
+</html>
